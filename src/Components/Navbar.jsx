@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <div className="text-white flex justify-between m-10">
+    <div className="w-full z-10 absolute text-white flex justify-between m-10">
       <h1 className="text-red-600 font-bold text-4xl cursor-pointer">
         NETFLIX
       </h1>
-      <div>
+      <div className="font-bold -translate-x-10">
         <button type="button" className="text-white  pr-4">
           Sign in
         </button>
